@@ -45,7 +45,7 @@ AS_DEFS =
 
 # C Defines
 C_DEFS = -DSTM32L476xx \
-		 -DUSE_HAL_DRIVER
+		 -DUSE_FULL_LL_DRIVER
 
 # compile GCC flags
 ASFLAGS = $(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
